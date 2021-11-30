@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    padding: 0;
+}
+.count {
+    margin: 5px 10px;
+    font-size: 18px;
+}
+.btn {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    min-width: 100px;
+    border: 2px solid rgb(204, 142, 163);
+    border-radius: 5px;
+    background: rgba(228, 120, 255, 0.521);
+}
+.btn:hover {
+    background-color: rgb(166, 144, 190);
+    /* border-color: rgb(76, 63, 109); */
+    cursor: pointer;
+}
