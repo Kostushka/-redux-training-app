@@ -8,11 +8,23 @@ const initialState = {
 export const usersReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_USERS:
-            return { ...state };
+            return { ...state, users: [...state.users, action.payload] };
         case GET_USERS:
-            return { ...state };
+            return {
+                ...state,
+                users: state.users.filter((user) => user.id !== action.payload),
+            };
 
         default:
             return state;
     }
 };
+
+export const addUserAction = (payload) => ({
+    type: ADD_USERS,
+    payload: payload,
+});
+export const removeUserAction = (payload) => ({
+    type: GET_USERS,
+    payload: payload,
+});

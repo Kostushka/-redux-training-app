@@ -1,0 +1,10 @@
+.user {
+    margin-top: 30px;
+}
+.name {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid violet;
+    border-radius: 3px;
+    cursor: pointer;
+}

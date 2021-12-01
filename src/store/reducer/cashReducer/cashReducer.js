@@ -19,3 +19,16 @@ export const cashReducer = (state = initialState, action) => {
             return state;
     }
 };
+
+export const addCashAction = (payload) => ({
+    type: ADD_CASH,
+    payload: payload,
+});
+export const getCashAction = (payload) => ({
+    type: GET_CASH,
+    payload: payload,
+});
+export const removeCashAction = (payload) => ({
+    type: REMOVE_CASH,
+    payload: payload,
+});
