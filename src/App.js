@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
+import { getUsers } from './api/getUsers';
 import styles from './App.module.css';
 import Users from './components/Users';
 import {
@@ -65,6 +66,14 @@ const App = () => {
                     onClick={() => addUser(prompt())}
                 >
                     Добавить пользователя
+                </button>
+                <button
+                    onClick={() => {
+                        dispatch(getUsers());
+                    }}
+                    className={styles.btn}
+                >
+                    Получить всех пользователей
                 </button>
             </div>
             <Users users={users} removeUser={removeUser} />
