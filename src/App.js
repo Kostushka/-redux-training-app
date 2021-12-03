@@ -9,6 +9,7 @@ import {
 } from './store/reducer/cashReducer/cashReducer';
 import {
     addUserAction,
+    getFetchUserAction,
     removeUserAction,
 } from './store/reducer/usersReducer/usersReducer';
 
@@ -65,6 +66,12 @@ const App = () => {
                     onClick={() => addUser(prompt())}
                 >
                     Добавить пользователя
+                </button>
+                <button
+                    className={styles.btn}
+                    onClick={() => dispatch(getFetchUserAction())}
+                >
+                    Получить всех пользователей
                 </button>
             </div>
             <Users users={users} removeUser={removeUser} />

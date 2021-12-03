@@ -4,13 +4,13 @@ const Users = ({ users, removeUser }) => {
     return (
         <div className={styles.user}>
             {users.map((user) => (
-                <span
+                <div
                     onClick={() => removeUser(user.id)}
                     className={styles.name}
                     key={user.id}
                 >
                     {user.name}
-                </span>
+                </div>
             ))}
         </div>
     );
