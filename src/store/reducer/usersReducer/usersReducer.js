@@ -28,13 +28,13 @@ export const usersReducer = (state = initialState, action) => {
 
 export const addUserAction = (payload) => ({
     type: ADD_USERS,
-    payload: payload,
+    payload,
 });
 export const removeUserAction = (payload) => ({
     type: GET_USERS,
-    payload: payload,
+    payload,
 });
 export const addAllUsersAction = (payload) => ({
     type: GET_ALL_USERS,
-    payload: payload,
+    payload,
 });

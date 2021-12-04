@@ -22,13 +22,13 @@ export const cashReducer = (state = initialState, action) => {
 
 export const addCashAction = (payload) => ({
     type: ADD_CASH,
-    payload: payload,
+    payload,
 });
 export const getCashAction = (payload) => ({
     type: GET_CASH,
-    payload: payload,
+    payload,
 });
 export const removeCashAction = (payload) => ({
     type: REMOVE_CASH,
-    payload: payload,
+    payload,
 });
