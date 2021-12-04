@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/redux-training-app/static/css/main.0e8d9cea.chunk.css",
+    "main.js": "/redux-training-app/static/js/main.654a6e36.chunk.js",
+    "main.js.map": "/redux-training-app/static/js/main.654a6e36.chunk.js.map",
+    "runtime-main.js": "/redux-training-app/static/js/runtime-main.3585952c.js",
+    "runtime-main.js.map": "/redux-training-app/static/js/runtime-main.3585952c.js.map",
+    "static/js/2.87ceffb5.chunk.js": "/redux-training-app/static/js/2.87ceffb5.chunk.js",
+    "static/js/2.87ceffb5.chunk.js.map": "/redux-training-app/static/js/2.87ceffb5.chunk.js.map",
+    "index.html": "/redux-training-app/index.html",
+    "static/css/main.0e8d9cea.chunk.css.map": "/redux-training-app/static/css/main.0e8d9cea.chunk.css.map",
+    "static/js/2.87ceffb5.chunk.js.LICENSE.txt": "/redux-training-app/static/js/2.87ceffb5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3585952c.js",
+    "static/js/2.87ceffb5.chunk.js",
+    "static/css/main.0e8d9cea.chunk.css",
+    "static/js/main.654a6e36.chunk.js"
+  ]
+}
